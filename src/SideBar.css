@@ -1,0 +1,30 @@
+.sidebar{
+    /* border: solid black; */
+    flex: 0.2;
+    background-color: black;
+    min-width: 230px;
+    color: white;
+    height: 100vh; 
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    left: 0;
+}
+
+.sidebar > img{
+    height: 70px;
+    padding: 20px;
+    margin: auto;
+}
+
+.sidebar > hr{
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sidebar_title{
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 10px;
+}
