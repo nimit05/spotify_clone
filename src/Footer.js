@@ -6,25 +6,30 @@ import SkipNextIcon from "@material-ui/icons/SkipNext";
 import ShuffleIcon from "@material-ui/icons/Shuffle";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import VolumeDownIcon from "@material-ui/icons/VolumeDown";
-import PauseCircleOutlineIcon from "@material-ui/icons/PauseCircleOutline";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import { Grid, Slider } from "@material-ui/core";
 
-function Footer() {
+function Footer({spotify}) {
+
+    
     return (
         <div className = "footer">
             <div className = "footer_left">
-                <img src = "" alt = "" className = "footer_albumlogo" />
+                <img src = "https://1.bp.blogspot.com/-oTpbCvhXMOA/YALjz0s8UCI/AAAAAAAAAoU/zhHY1VD3fl05D3qQGPsVBTZmNNiXQwaowCLcBGAsYHQ/s480/7wtfhZwyrcc-HQ.jpg" 
+                alt = "" className = "footer_albumlogo" />
                 <div className = "footer_songInfo">
-                    <h4>Yeah!</h4>
-                    <p>beleiber</p>
+                    <h4>Beleiver</h4>
+                    <p>Imagine Dragons</p>
                 </div>
             </div>
             <div className = "footer_center">
                 <ShuffleIcon className = "footer_green" />
                 <SkipPreviousIcon className = "footer_icon" />
-                <PlayCircleOutlineIcon fontSize = "large" className = "footer_icon"/>
-                <SkipNextIcon className = "footer_icon"/>
+                <PlayCircleOutlineIcon 
+                fontSize = "large" 
+                className = "footer_icon"
+                />
+                <SkipNextIcon className = "footer_icon" />
                 <RepeatIcon className = "footer_green"/>
             </div>
             <div className = "footer_right">
